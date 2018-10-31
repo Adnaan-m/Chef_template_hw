@@ -1,29 +1,29 @@
-I, [2018-10-25T10:01:05.631260 #18042]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.2)
-E, [2018-10-25T10:01:05.632057 #18042] ERROR -- Kitchen: ------Exception-------
-E, [2018-10-25T10:01:05.632238 #18042] ERROR -- Kitchen: Class: Kitchen::UserError
-E, [2018-10-25T10:01:05.632309 #18042] ERROR -- Kitchen: Message: Kitchen YAML file /Users/tech-a08/Desktop/Sparta/DevOps/Chef/CookBooks/.kitchen.yml does not exist.
-E, [2018-10-25T10:01:05.632354 #18042] ERROR -- Kitchen: ----------------------
-E, [2018-10-25T10:01:05.632394 #18042] ERROR -- Kitchen: ------Backtrace-------
-E, [2018-10-25T10:01:05.632424 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/loader/yaml.rb:65:in `read'
-E, [2018-10-25T10:01:05.632450 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:152:in `data'
-E, [2018-10-25T10:01:05.632475 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:131:in `suites'
-E, [2018-10-25T10:01:05.632499 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:182:in `filter_instances'
-E, [2018-10-25T10:01:05.632524 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `build_instances'
-E, [2018-10-25T10:01:05.632548 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:117:in `instances'
-E, [2018-10-25T10:01:05.632572 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:112:in `filtered_instances'
-E, [2018-10-25T10:01:05.632596 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:142:in `parse_subcommand'
-E, [2018-10-25T10:01:05.632619 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/test.rb:40:in `block in call'
-E, [2018-10-25T10:01:05.632643 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
-E, [2018-10-25T10:01:05.632667 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/test.rb:38:in `call'
-E, [2018-10-25T10:01:05.632691 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:52:in `perform'
-E, [2018-10-25T10:01:05.632715 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:245:in `test'
-E, [2018-10-25T10:01:05.632739 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
-E, [2018-10-25T10:01:05.632762 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
-E, [2018-10-25T10:01:05.632786 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
-E, [2018-10-25T10:01:05.632878 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
-E, [2018-10-25T10:01:05.632932 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `block in <top (required)>'
-E, [2018-10-25T10:01:05.632959 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
-E, [2018-10-25T10:01:05.632983 #18042] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `<top (required)>'
-E, [2018-10-25T10:01:05.633007 #18042] ERROR -- Kitchen: /usr/local/bin/kitchen:293:in `load'
-E, [2018-10-25T10:01:05.633029 #18042] ERROR -- Kitchen: /usr/local/bin/kitchen:293:in `<main>'
-E, [2018-10-25T10:01:05.633052 #18042] ERROR -- Kitchen: ----End Backtrace-----
+I, [2018-10-31T10:49:29.229230 #42116]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.2)
+E, [2018-10-31T10:49:29.229968 #42116] ERROR -- Kitchen: ------Exception-------
+E, [2018-10-31T10:49:29.230071 #42116] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-10-31T10:49:29.230138 #42116] ERROR -- Kitchen: Message: Kitchen YAML file /Users/tech-a08/Desktop/Sparta/DevOps/Chef/CookBooks/.kitchen.yml does not exist.
+E, [2018-10-31T10:49:29.230190 #42116] ERROR -- Kitchen: ----------------------
+E, [2018-10-31T10:49:29.230246 #42116] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-10-31T10:49:29.230292 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-10-31T10:49:29.230340 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:152:in `data'
+E, [2018-10-31T10:49:29.230386 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:131:in `suites'
+E, [2018-10-31T10:49:29.230430 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-10-31T10:49:29.230475 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-10-31T10:49:29.230519 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-10-31T10:49:29.230567 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-10-31T10:49:29.230617 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-10-31T10:49:29.230666 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/test.rb:40:in `block in call'
+E, [2018-10-31T10:49:29.230896 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-10-31T10:49:29.230964 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/test.rb:38:in `call'
+E, [2018-10-31T10:49:29.231018 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-10-31T10:49:29.231058 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:245:in `test'
+E, [2018-10-31T10:49:29.231091 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-10-31T10:49:29.231123 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-10-31T10:49:29.231155 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-10-31T10:49:29.231187 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-10-31T10:49:29.231218 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-10-31T10:49:29.231250 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-10-31T10:49:29.231292 #42116] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-10-31T10:49:29.231324 #42116] ERROR -- Kitchen: /usr/local/bin/kitchen:293:in `load'
+E, [2018-10-31T10:49:29.231354 #42116] ERROR -- Kitchen: /usr/local/bin/kitchen:293:in `<main>'
+E, [2018-10-31T10:49:29.231384 #42116] ERROR -- Kitchen: ----End Backtrace-----
